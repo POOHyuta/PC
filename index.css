@@ -1,0 +1,53 @@
+.body {
+    margin: 0 5rem;
+    padding: 0px;
+}
+.first {
+    margin: 1.5rem auto;
+}
+.fifth {
+    margin: 1.5rem 5rem;
+    padding: 0px;
+}
+h1 {
+    font-family: 'Kosugi Maru', sans-serif;
+    line-height: 1.2em;
+    padding: 0.5em;/*文字周りの余白*/
+    color: black;/*文字色*/
+    background: whitesmoke;/*背景色*/
+    border-left: solid 5px #c0c0c0;/*左線（実線 太さ 色）*/
+}
+h2 {
+    font-family: 'Kosugi Maru', sans-serif;
+
+    color: black;/*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px black;
+}
+h5 {
+    font-family: 'Kosugi Maru', sans-serif;
+
+}
+p {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vw;
+    text-size-adjust: small;
+}
+
+.blue {
+    display: inline-block;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem;
+    text-size-adjust: small;
+}

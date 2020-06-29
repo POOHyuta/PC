@@ -29,8 +29,8 @@ h5 {
 }
 p {
     font-family: 'Kosugi Maru', sans-serif;
-    font-size: 1rem;
-    line-height: 1.;
+    font-size: 0.8rem;
+    line-height: 1;
 }
 .me {
     display: flex;
